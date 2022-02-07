@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;GAGG;AAGH,UAAU;EACR,WAAW,EAAE,qBAAqB;EAClC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,YAAY,ECLS,KAAK;EDM1B,GAAG,EAAE,uDAA0C;EAC/C,GAAG,EAAE,8DAAiD,CAAC,2BAA2B,EAClF,yDAA4C,CAAC,eAAe,EAC5D,wDAA2C,CAAC,cAAc,EAC1D,uDAA0C,CAAC,kBAAkB,EAC7D,mEAAsD,CAAC,aAAa;;;AAGtE,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "../dist/font_awesome/scss/regular.scss",
+        "../dist/font_awesome/scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "regular.css"
+}
