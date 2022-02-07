@@ -17,7 +17,7 @@ body {
   width: 100%;
 }
 
-body .header-container {
+.header-container {
   background-color: #f7f7f7;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,15 +29,15 @@ body .header-container {
       -ms-flex-align: center;
           align-items: center;
   font-size: 2rem;
-  padding: 10px 20px;
+  padding: 0   20px;
   width: 100%;
 }
 
-body .header-container .logo {
+.header-container .logo {
   padding-left: 20px;
 }
 
-body .header-container nav {
+.header-container nav {
   overflow-x: hidden;
   width: 43.5rem;
   display: -webkit-box;
@@ -48,7 +48,7 @@ body .header-container nav {
           justify-content: flex-end;
 }
 
-body .header-container nav .burger-selector {
+.header-container nav .burger-selector {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,7 +64,7 @@ body .header-container nav .burger-selector {
   width: 80px;
 }
 
-body .header-container nav .burger-selector:hover .arrow-menu .arrow-inner .line-top {
+.header-container nav .burger-selector:hover .arrow-menu .arrow-inner .line-top {
   -webkit-transform: translateY(10px);
           transform: translateY(10px);
   -webkit-transition: all 0.2s;
@@ -72,7 +72,7 @@ body .header-container nav .burger-selector:hover .arrow-menu .arrow-inner .line
   background: #b3b3b3;
 }
 
-body .header-container nav .burger-selector:hover .arrow-menu .arrow-inner .line-bottom {
+.header-container nav .burger-selector:hover .arrow-menu .arrow-inner .line-bottom {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   -webkit-transition: all 0.2s;
@@ -80,7 +80,7 @@ body .header-container nav .burger-selector:hover .arrow-menu .arrow-inner .line
   background: #b3b3b3;
 }
 
-body .header-container nav .burger-selector #btnControl {
+.header-container nav .burger-selector #btnControl {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -88,18 +88,18 @@ body .header-container nav .burger-selector #btnControl {
   cursor: pointer;
 }
 
-body .header-container nav .burger-selector #btnControl:checked + label .nav-inner {
+.header-container nav .burger-selector #btnControl:checked + label .nav-inner {
   display: block;
   -webkit-animation: slide-in-blurred-right 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
   animation: slide-in-blurred-right 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
 
-body .header-container nav .burger-selector #btnControl:checked + label .nav-inner ul li a {
+.header-container nav .burger-selector #btnControl:checked + label .nav-inner ul li a {
   cursor: pointer;
   display: block;
 }
 
-body .header-container nav .burger-selector label .arrow-menu {
+.header-container nav .burger-selector label .arrow-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,7 +112,7 @@ body .header-container nav .burger-selector label .arrow-menu {
   position: relative;
 }
 
-body .header-container nav .burger-selector label .arrow-menu .arrow-inner {
+.header-container nav .burger-selector label .arrow-menu .arrow-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,26 +125,26 @@ body .header-container nav .burger-selector label .arrow-menu .arrow-inner {
   position: relative;
 }
 
-body .header-container nav .burger-selector label .arrow-menu .arrow-inner .burger-line {
+.header-container nav .burger-selector label .arrow-menu .arrow-inner .burger-line {
   position: absolute;
   width: 30px;
   height: 2px;
   background-color: #333;
 }
 
-body .header-container nav .burger-selector label .arrow-menu .arrow-inner .line-top {
+.header-container nav .burger-selector label .arrow-menu .arrow-inner .line-top {
   top: -5px;
   -webkit-transition: background 1s;
   transition: background 1s;
 }
 
-body .header-container nav .burger-selector label .arrow-menu .arrow-inner .line-bottom {
+.header-container nav .burger-selector label .arrow-menu .arrow-inner .line-bottom {
   top: 5px;
   -webkit-transition: background 1s;
   transition: background 1s;
 }
 
-body .header-container nav .burger-selector .nav-inner {
+.header-container nav .burger-selector .nav-inner {
   position: relative;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -152,7 +152,7 @@ body .header-container nav .burger-selector .nav-inner {
   animation: slide-out-blurred-right 0.45s cubic-bezier(0.755, 0.05, 0.855, 0.06) both;
 }
 
-body .header-container nav .burger-selector .nav-inner ul {
+.header-container nav .burger-selector .nav-inner ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,7 +175,7 @@ body .header-container nav .burger-selector .nav-inner ul {
   top: -1.65vw;
 }
 
-body .header-container nav .burger-selector .nav-inner ul li {
+.header-container nav .burger-selector .nav-inner ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,11 +188,11 @@ body .header-container nav .burger-selector .nav-inner ul li {
   position: relative;
 }
 
-body .header-container nav .burger-selector .nav-inner ul li:hover a {
+.header-container nav .burger-selector .nav-inner ul li:hover a {
   color: #f9b7c1;
 }
 
-body .header-container nav .burger-selector .nav-inner ul li a {
+.header-container nav .burger-selector .nav-inner ul li a {
   text-decoration: none;
   padding: 1rem 1.25rem;
   font-size: 1.5rem;
@@ -200,7 +200,8 @@ body .header-container nav .burger-selector .nav-inner ul li a {
   display: none;
 }
 
-body main {
+/* HOME MAIN SECTION */
+#home {
   margin: 0 auto;
   width: 80%;
   display: -webkit-box;
@@ -215,7 +216,7 @@ body main {
           align-items: center;
 }
 
-body main .img-container {
+#home .img-container {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -225,17 +226,159 @@ body main .img-container {
           justify-content: center;
 }
 
-body main img {
+#home img {
   margin-top: 8vw;
   border-radius: 50%;
 }
 
-body main .h1-container {
+#home .h1-container {
   margin: 130px auto 0;
 }
 
-body main h1 {
+#home h1 {
   font-size: clamp(3rem, 4vw, 4rem);
+}
+
+/* ABOUT MAIN SECTION */
+#about {
+  margin: 3.125rem auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about .h2-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+#about .h2-container h2 {
+  font-size: clamp(3rem, 3vw, 4rem);
+  font-weight: 500;
+  color: #b3b3b3;
+}
+
+#about .about-text {
+  width: clamp(35rem, 80%, 75rem);
+  font-size: 1.45rem;
+  padding: 0;
+  line-height: 2rem;
+  color: dimgray;
+  text-align: center;
+  margin: 4rem auto 5rem;
+}
+
+/* MUSIC MAIN SECTION */
+#music {
+  margin: 3.125rem auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#music .h2-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+#music .h2-container h2 {
+  font-size: clamp(3rem, 3vw, 4rem);
+  font-weight: 500;
+  color: #b3b3b3;
+}
+
+#music .spotify {
+  margin: 4rem auto 5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#music .spotify iframe {
+  width: clamp(30rem, 30%, 40rem);
+}
+
+#music .spotify .music-text1 {
+  width: calc(45% - 1.25rem);
+  margin-left: 6rem;
+}
+
+#music .spotify .music-text1 p {
+  font-size: 1.45rem;
+  padding: 0;
+  line-height: 2rem;
+  color: dimgray;
+}
+
+#music .music-skills {
+  text-align: center;
+}
+
+#music .music-skills .skill-text {
+  font-size: 1.5rem;
+}
+
+/* PORTFOLIO SECTION */
+#portfolio {
+  width: 80%;
+  margin: 3.125rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  border: 1px solid;
+}
+
+#portfolio .box {
+  width: 100%;
+  border: 1px solid;
+}
+
+#portfolio .box .speaker-img {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/13A4F5FA-EC62-41F8-85AC-D4376A4F25BD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid red;
 }
 
 /* ANIMATION */
